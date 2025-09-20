@@ -38,7 +38,7 @@ Setiap surat yang sudah diterbitkan dan dipindai (scan PDF) dapat diunggah, disi
 
 ## 🗂️ Struktur Database
 Database menggunakan **MySQL** dengan tabel utama:
-- `arsip_surat` → menyimpan data surat (id, judul, kategori_id, file, tanggal).
+- `arsip_surat` → menyimpan data surat (id, category_id, number, title, file).
 - `kategori_surat` → menyimpan data kategori surat.
 - (Opsional) tabel lain sesuai kebutuhan.
 
